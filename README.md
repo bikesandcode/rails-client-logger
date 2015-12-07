@@ -7,11 +7,13 @@ There are 5 levels of logging: debug, info, warn, error and fatal.
 If [exception_notification](https://github.com/smartinez87/exception_notification) is found, sends
 notifications for `error` and `fatal` levels.
 
-Supports Rails 4 (permitted parameters).
+Supports Rails 4 (permitted parameters). 
 
 For Rails 3.x use gem version `0.0.2`.
 
 [![Gem Version](https://badge.fury.io/rb/rails-client-logger.png)](http://badge.fury.io/rb/rails-client-logger)
+
+This is a pure JavaScript fork for those of us who do not want to include CoffeeScript.
 
 ## Installation
 
