@@ -45,4 +45,4 @@ window.jsLogger = (function () {
       return this.invoke('fatal', message);
     }
   };
-});
+}());
