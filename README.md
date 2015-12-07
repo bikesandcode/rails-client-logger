@@ -50,6 +50,24 @@ jsLogger.info("simple info message");
 jsLogger.warn("a warning");
 ```
 
+### Globally prefixing messages
+
+```javascript
+jsLogger.configure({prefix: 'jsLogger: '});
+```
+
+Then when you:
+
+```javascript
+jsLogger.info('The foobazzle has been articulated');
+```
+
+Which is then logged as: 
+
+```javascript
+jsLogger: The foobazzle has been articulated
+```
+
 ### Log Error
 
 ```ruby
